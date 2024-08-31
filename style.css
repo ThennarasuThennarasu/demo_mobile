@@ -1,0 +1,270 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    display: grid;
+    background-color: blueviolet;
+    padding: 5px;
+    grid-template-areas:
+    'navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation'
+    'menu main main main main main main main main main main'
+    'menu content content content content content content content content content content'
+    'footer footer footer footer footer footer footer footer footer footer footer'
+
+}
+
+.container div{
+    background-color:white;
+    /* color: blueviolet;
+    font-size: large; */
+    margin: 2px;
+    padding: 2px;
+}
+
+.item1{
+    
+    display: flex;
+   
+    grid-area:navigation;
+    
+}
+
+.item2{
+    grid-area: menu;
+    height: 125vh;
+}
+.item3{
+    grid-area: main;
+    
+
+}
+.item4{
+    grid-area: content;
+    
+}
+.item5{
+    grid-area: footer;
+}
+ 
+
+.title{
+     display: flex;
+     
+}
+ input{
+    margin-left: 350px;
+    width: 400px;
+    margin-top: 17px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+input::placeholder{
+       padding-left: 10px;
+       color: black;
+}
+.title h1{
+    margin-left: 20px;
+    color:orange;
+    margin-top: 11px;
+}
+
+.title i{
+    font-size: 25px;
+    color:brown;
+}
+.img1 img{
+        width: 50px;
+        height: 50px;
+        border-radius: 20px;
+        margin-left: 350px;
+        margin-top: 5px;
+}
+
+.thennu p{
+    margin-left: 4px;
+    font-size: 20px;
+    margin-top: 5px;
+    
+}
+
+#menucord{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+/* .menuitem{
+    background-color: red;
+    width: 300px;
+    height: 60px;
+    border: 2px solid black;
+    margin-left: 50px;
+    padding-left: 50px;
+    
+    
+    
+} */
+.menuitem p{
+    background-color:grey;
+    font-size: 30px;
+    width: 350px;
+    height: 50px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 2px solid black;
+    /* margin-top: 80px; */
+    text-align: center;
+    color:ghostwhite;
+    margin-right: 20px;
+    padding-left: 100px;
+    
+
+}
+
+.menuitem1 p{
+    background-color:grey;
+    font-size: 30px;
+    width: 350px;
+    height: 50px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 2px solid black;
+    /* margin-top: 30px; */
+    text-align: center;
+    color:ghostwhite;
+    margin-right: 20px;
+    padding-left: 100px;
+}
+
+.img2 img{
+       height: 250px;
+       width: 350px;
+       
+       margin: 20px;
+       margin-top: 80px;
+}
+
+.item3{
+    display: flex;
+}
+
+.item3 p{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.img2 img{
+    height: 340px;
+    width: 280px;
+    margin: 20px;
+    margin-top: 80px;
+}
+
+.item4 p{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 80px;
+    /* width: 60%; */
+}
+.item4{
+    display: flex ;
+}
+
+.about p{
+    width: 280px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 90px;
+}
+
+.about h3{
+    margin-left: 90px;
+    margin-top: 100px;
+}
+
+.iconlast{
+    margin-left: 80px;
+}
+
+#i1{
+    color: green;
+    font-size: 35px;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+#i2{
+    color: blue;
+    font-size: 35px;
+    margin-left: 10px;
+}
+#i3{
+    color: red;
+    font-size: 35px;
+    margin-left: 10px;
+}
+#i4{
+    color: rgb(18, 250, 238);
+    font-size: 35px;
+    margin-left: 10px;
+}
+.about{
+    margin-left:300px;
+}
+
+.item5{
+    display: flex;
+}
+
+.map{
+    margin-left: 800px;
+}
+
+#menucord:hover{
+    color: red;
+}
+.menuitem p:hover{
+    color: brown;
+}
+
+.iphonemenu{
+    width: 350px;
+    height: 150px;
+    display: none;
+    row-gap: 0px;
+    margin-top: 2px;
+    background-color:goldenrod;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 5px 4px 6px black;
+    border-radius: 10px;
+    padding-left: 100px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+}
+
+.menuitem:hover .iphonemenu{
+    display: grid;
+}
+
+.iphonemenu a:hover{
+    background-color:grey;
+}
+#icon1{
+    padding-left: 60px;
+}
+
+.menuitem1 p:hover{
+    color: brown;
+}
+.menuitem1:hover .iphonemenu{
+    display: grid;
+}
